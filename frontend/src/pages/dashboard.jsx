@@ -16,7 +16,7 @@ function Dashboard() {
   };
 
   return (
-    <div className="flex flex-col p-7 h-full w-full  bg-linear-to-br from-green-500 transition-opacity group-hover:animate-bounce">
+    <div className="flex flex-col p-7 min-h-screen min-w-screen  bg-linear-to-br from-green-500 transition-opacity group-hover:animate-bounce">
       <h1 className="text-3xl font-bold mb-4 text-center">Dashboard</h1>
       <div className="flex justify-center items-center mb-5">
         <input
